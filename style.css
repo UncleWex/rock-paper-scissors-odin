@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    font-size: larger;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button {
+    font-size: large;
+    padding: 12px 20px;
+}
